@@ -1,0 +1,11 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-image: url("https://images.unsplash.com/photo-1719403409530-69f942dbe29f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG92ZSUyMG5hdHVyZXxlbnwwfHwwfHx8Mg%3D%3D&auto=format&fit=crop&q=60&w=600");
+    background-size: cover;
+    color: wheat;
+    border-radius: 5%;
+    position: fixed;
+    top: 2px;
+    right: 0;
+}

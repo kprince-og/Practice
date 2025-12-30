@@ -1,0 +1,108 @@
+*{
+    font-family: "Times New Roman";
+}
+
+#p1 {
+    text-align: center;
+    color: yellow;
+    background-color: rgb(2, 97, 101);
+    font-weight: 350;
+    /* font-family: 'Times New Roman', Times, serif; */
+    text-transform: capitalize;
+    height: 50px;
+    width: 500px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: crimson;
+}
+
+#p2 {
+    text-align: center;
+    color: yellow;
+    background-color: royalblue;
+    font-weight: 750;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    height: 50px;
+    width: 500px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: goldenrod; */
+    border: 2px solid goldenrod;
+}
+
+#p3 {
+    text-align: center;
+    color: yellow;
+    background-color: brown;
+    font-weight: 250;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50px;
+    width: 500px;
+    border-width: 2px;
+    border-style: double;
+    border-color:darkmagenta;
+}
+
+button {
+    background-color: blue;
+    color: pink;
+}
+
+body{
+    background-color: rgb(167, 138, 225);
+}
+
+#red{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px 12px 10px 12px;
+}
+
+#yellow{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px 12px 10px 12px;
+}
+
+#green{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px 12px 10px 12px;
+}
+
+#traffic{
+    text-align: center;
+    height: 300px;
+    width: 100px;
+    background-color: black;
+    padding: 5px;
+}
+
+/* div {
+    height: 50px;
+    width: 150px;
+    background-color: royalblue;
+    color: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    border-color:chocolate;
+    border-radius: 5px;
+    border: 2px solid chocolate;
+    padding :  5px 10px 5px 10px;
+    margin: 15px 20px 15px 20px;
+
+} */
+
+
