@@ -369,9 +369,18 @@
 
 //------------functions
 
-function myfunction() { // function defination
-    console.log("Welcome Developers !");
-    console.log("We are Learning JS :)");
+// function myfunction() { // (function defination)
+//     console.log("Welcome Developers !");
+//     console.log("We are Learning JS :)");
+// }
+
+// myfunction();// function call
+
+// ----------------function by input value example
+
+function myfunction(msg){
+    // parameter -> input
+    console.log(msg);
 }
 
-myfunction();// function call
+myfunction("We are learning JS");// arguments
