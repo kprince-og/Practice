@@ -117,8 +117,19 @@
 
 //-------------------practice for functions in js (to find the sum of 2 numbers)
 
+// function sum(x, y) {
+//     console.log(x + y);
+// }
+
+// sum(5, 9);
+
+// with the use of return to solve same example
+
 function sum(x, y) {
-    console.log(x + y);
+    s = x + y;
+    return s;
 }
 
-sum(5, 9);
+let val = sum(9, 6);
+
+console.log(val);
