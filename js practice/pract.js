@@ -125,11 +125,35 @@
 
 // with the use of return to solve same example
 
-function sum(x, y) {
-    s = x + y;
-    return s;
+// function sum(x, y) {
+//     // local variables -> scope
+//     s = x + y;
+//     return s;
+// }
+
+// let val = sum(9, 6);
+
+// console.log(val);
+
+// -------------------Arrow functions in js
+
+// ------sum function (example)
+
+function sum(a, b) {
+    return a+b;
 }
 
-let val = sum(9, 6);
+// Modern JS feature (arrowFunction)
+const arrowSum = (a, b) => {
+    console.log(a+b);
+}
 
-console.log(val);
+// multiplication function
+
+function multi(a,b) {
+    return a*b;
+}
+
+const arrowMulti = (a, b) => {
+    return a*b;
+}
