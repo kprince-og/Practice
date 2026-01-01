@@ -139,21 +139,47 @@
 
 // ------sum function (example)
 
-function sum(a, b) {
-    return a+b;
+// function sum(a, b) {
+//     return a+b;
+// }
+
+// // Modern JS feature (arrowFunction)
+// const arrowSum = (a, b) => {
+//     console.log(a+b);
+// }
+
+// // --------multiplication function
+
+// function multi(a,b) {
+//     return a*b;
+// }
+
+// const arrowMulti = (a, b) => {
+//     return a*b;
+// }
+
+//-----------------------------practice questions for functions in JS Q.NO.1
+
+function countVowels (str) {
+    let count = 0;
+    for (let char of str) {
+        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ) {
+            count++;
+        }
+    }
+
+    return count;
 }
 
-// Modern JS feature (arrowFunction)
-const arrowSum = (a, b) => {
-    console.log(a+b);
-}
+// same example with arrow function
 
-// multiplication function
+const vowelCount = (str) => {
+    let count = 0;
+    for (let char of str) {
+        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ) {
+            count++;
+        }
+    }
 
-function multi(a,b) {
-    return a*b;
-}
-
-const arrowMulti = (a, b) => {
-    return a*b;
+    return count;
 }
