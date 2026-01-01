@@ -160,26 +160,36 @@
 
 //-----------------------------practice questions for functions in JS Q.NO.1
 
-function countVowels (str) {
-    let count = 0;
-    for (let char of str) {
-        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ) {
-            count++;
-        }
-    }
+// function countVowels (str) {
+//     let count = 0;
+//     for (let char of str) {
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ) {
+//             count++;
+//         }
+//     }
 
-    return count;
-}
+//     return count;
+// }
 
-// same example with arrow function
+// // same example with arrow function
 
-const vowelCount = (str) => {
-    let count = 0;
-    for (let char of str) {
-        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ) {
-            count++;
-        }
-    }
+// const vowelCount = (str) => {
+//     let count = 0;
+//     for (let char of str) {
+//         if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ) {
+//             count++;
+//         }
+//     }
 
-    return count;
-}
+//     return count;
+// }
+
+//---------------------------- practice of for-each loop
+
+// let nums = [1, 2, 3, 4, 5];
+
+// let calculateSquare = (num) => {
+//     console.log(num*num);
+// }
+
+// nums.forEach(calculateSquare);
