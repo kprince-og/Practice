@@ -203,3 +203,35 @@
 // })
 
 // console.log(result);
+
+//-------------------------------practice set for methods in JS Q.no.1(find the marks of students 90+)
+
+// let marks = [85, 98, 37, 88, 92, 62, 99];
+
+// const toppers = marks.filter((val) => {
+//     return val > 90 ;
+// })
+
+// console.log(toppers);
+
+//-------------------------------Q.no.2
+
+// let n = prompt("Enter a number :");
+
+// let arr = [];
+
+// for(let i=1; i<=n; i++){
+//     arr[i-1] = i;//1(0), 2(1), 3(2), 4(3)
+// }
+
+// let sum = arr.reduce((preval, curval) => {
+//     return preval + curval;
+// })
+
+// let factorial = arr.reduce((preval, curval) => {
+//     return preval * curval;
+// })
+
+// console.log("Numbers : ",arr)
+// console.log("Sum of numbers : ",sum);
+// console.log("Product of numbers : ",factorial);
