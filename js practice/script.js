@@ -430,3 +430,9 @@
 // })
 
 // console.log(output);
+
+//----------------------DOM manipulation in JS
+
+// let exp = document.getElementsByClassName("contant");
+// console.dir(exp);
+// console.log(exp);
