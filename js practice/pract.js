@@ -235,3 +235,10 @@
 // console.log("Numbers : ",arr)
 // console.log("Sum of numbers : ",sum);
 // console.log("Product of numbers : ",factorial);
+
+//-------------------Practise set for Dom concepts and Properties of JS (Q.1)
+
+let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+
+h2.innerText = h2.innerText + " From Web Dev Practice Sets";
